@@ -55,6 +55,7 @@
     "rimraf": "^2.6.1",
     "semver": "^5.4.1",
     "shelljs": "^0.7.8",
+    "uglify-js": "^2.8.29",
     "url-loader": "^0.5.9",
     "vue-loader": "^13.0.4",
     "vue-style-loader": "^3.0.1",
