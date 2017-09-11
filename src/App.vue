@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <h1>- CMS</h1>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import packageConfig from '../package.json'
+
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      title: packageConfig.name
+    }
+  }
 }
 </script>
 

@@ -6,6 +6,7 @@ import VueResource from 'vue-resource'
 
 import 'normalize.css'
 import 'element-ui/lib/theme-default/index.css'
+import '../src/style/global.less'
 
 Vue.use(Element)
 Vue.use(VueResource)
